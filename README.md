@@ -2,10 +2,8 @@ The main idea is to get a predictable result when assembling in different enviro
 
 This is the example container that will reload code changes you make locally using BrowserSync.
 
-This project contains the following npm tasks:
+Run the `./docker-build.sh` first, to build the Docker image. 
 
-`npm run docker:build` — Build the Docker image.
+Run the `npm run docker:install` to install the project dependencies.
 
-`npm run docker:install` — Run the `npm install`.
-
-`npm run docker:watch` — Run the `gulp`.
+Run the `npm run docker:watch` to run the default Gulp task.
