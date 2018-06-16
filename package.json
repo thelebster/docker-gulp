@@ -10,7 +10,6 @@
     "url": "http://github.com/HosseinKarami/fastshell.git"
   },
   "scripts": {
-    "docker:build": "/bin/bash docker-build.sh",
     "docker:install": "/bin/bash docker-install.sh",
     "docker:watch": "/bin/bash docker-watch.sh"
   },
